@@ -1,0 +1,145 @@
+body {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#root {
+  height: 36vh;
+  width: 30%;
+  /*border: 2px solid red;*/
+}
+
+#watch-display {
+  font-size: 15vh;
+  color: black;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#startstop {
+  width: 30%;
+  padding: 1.5%;
+  align-content: center;
+  font-weight: bolder;
+  background-color: #2f9ee5;
+  border: 2px solid #2f9ee5;
+  border-radius: 30px;
+}
+
+#startstop:hover {
+  color: white;
+}
+
+#reset {
+  width: 30%;
+  padding: 1.5%;
+  margin-left: 1%;
+  font-weight: bolder;
+  background-color: #2f9ee5;
+  border: 2px solid #2f9ee5;
+  border-radius: 30px;
+}
+
+#reset:hover {
+  color: white;
+}
+
+#root-Short {
+  height: 36vh;
+  width: 30%;
+  /*border: 2px solid red;*/
+}
+
+#watch-display-Short {
+  font-size: 15vh;
+  color: black;
+  text-align: center;
+}
+
+.buttons-Short {
+  text-align: center;
+}
+
+#startstop-Short {
+  width: 30%;
+  padding: 1.5%;
+  align-content: center;
+  font-weight: bolder;
+  background-color: #2f9ee5;
+  border: 2px solid #2f9ee5;
+  border-radius: 30px;
+}
+
+#startstop-Short:hover {
+  color: white;
+}
+
+#reset-Short {
+  width: 30%;
+  padding: 1.5%;
+  margin-left: 1%;
+  font-weight: bolder;
+  background-color: #2f9ee5;
+  border: 2px solid #2f9ee5;
+  border-radius: 30px;
+}
+
+#reset-Short:hover {
+  color: white;
+}
+
+#root-Long {
+  height: 36vh;
+  width: 30%;
+  /*border: 2px solid red;*/
+}
+
+#watch-display-Long {
+  font-size: 15vh;
+  color: black;
+  text-align: center;
+}
+
+.buttons-Long {
+  text-align: center;
+}
+
+#startstop-Long {
+  width: 30%;
+  padding: 1.5%;
+  align-content: center;
+  font-weight: bolder;
+  background-color: #2f9ee5;
+  border: 2px solid #2f9ee5;
+  border-radius: 30px;
+}
+
+#startstop-Long:hover {
+  color: white;
+}
+
+#reset-Long {
+  width: 30%;
+  padding: 1.5%;
+  margin-left: 1%;
+  font-weight: bolder;
+  background-color: #2f9ee5;
+  border: 2px solid #2f9ee5;
+  border-radius: 30px;
+}
+
+#reset-Long:hover {
+  color: white;
+}

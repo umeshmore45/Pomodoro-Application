@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="root">
+        <h1>Pomodoro</h1>
+        <div id="watch-display">25:00</div>
+        <div class="buttons">
+          <button id="startstop" onclick="startStop()">Start</button>
+          <button id="reset" onclick="rest()">Reset</button>
+        </div>
+      </div>
+      <div id="root-Short">
+        <h1>Short Break</h1>
+        <div id="watch-display-Short">05:00</div>
+        <div class="buttons-Short">
+          <button id="startstop-Short" onclick="startStopShort()">Start</button>
+          <button id="reset-Short" onclick="restShort()">Reset</button>
+        </div>
+      </div>
+      <div id="root-Long">
+        <h1>Long Break</h1>
+        <div id="watch-display-Long">15:00</div>
+        <div class="buttons-Long">
+          <button id="startstop-Long" onclick="startStopLong()">Start</button>
+          <button id="reset-Long" onclick="restLong()">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./src/index.js"></script>
+  <script src="./src/Short.js"></script>
+  <script src="./src/long.js"></script>
+</html>
