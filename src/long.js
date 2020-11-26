@@ -35,14 +35,14 @@ const stopWatchLong = () => {
   document.getElementById(
     "watch-display-Long"
   ).innerHTML = `${minutesStringLg}:${secondsStringLg}`;
-  if (minutesStringSh === "00" && secondsStringSh === "00") {
+  if (minutesStringLg === "00" && secondsStringLg === "00") {
     playSound();
   }
 };
 
 const startStopLong = () => {
   if (statusLong == "stopLg") {
-    intervalLong = window.setInterval(stopWatchLong, 1000);
+    intervalLong = window.setInterval(stopWatchLong, 1);
     document.getElementById("startstop-Long").innerHTML = "Stop";
     statusLong = "startLg";
     playSound();

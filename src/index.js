@@ -34,14 +34,14 @@ const stopWatch = () => {
   document.getElementById(
     "watch-display"
   ).innerHTML = `${minutesString}:${secondsString}`;
-  if (minutesStringSh === "00" && secondsStringSh === "00") {
+  if (minutesString === "00" && secondsString === "00") {
     playSound();
   }
 };
 
 const startStop = () => {
   if (status == "stop") {
-    interval = window.setInterval(stopWatch, 1000);
+    interval = window.setInterval(stopWatch, 1);
     document.getElementById("startstop").innerHTML = "Stop";
     status = "start";
     playSound();
