@@ -29,7 +29,7 @@ Using this method, you break your workday into 25-minute chunks separated by fiv
  - [index.js](https://github.com/umeshmore45/Pomodoro-Application/blob/master/src/index.js)
  - [Short.js](https://github.com/umeshmore45/Pomodoro-Application/blob/master/src/Short.js)
  - [long.js](https://github.com/umeshmore45/Pomodoro-Application/blob/master/src/long.js)
- - [playSound](https://github.com/umeshmore45/Pomodoro-Application/blob/master/src/playaudio.js)
+ - [playSound.js](https://github.com/umeshmore45/Pomodoro-Application/blob/master/src/playaudio.js)
 
 
 
