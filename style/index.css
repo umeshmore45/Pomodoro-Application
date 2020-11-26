@@ -219,14 +219,18 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .header-container {
-    flex-direction: column;
-    flex-flow: wrap;
+    flex-flow: column;
+    height: 45vh;
+    justify-content: center;
   }
   .container {
     flex-direction: column;
   }
   .header-logo {
     width: 45%;
+  }
+  nav {
+    width: 35%;
   }
 
   #root {
