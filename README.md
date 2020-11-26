@@ -18,22 +18,24 @@ Built With  **Vanilla JavaScript.**
 
 
 ## Usage
+Using this method, you break your workday into 25-minute chunks separated by five-minute breaks. These intervals are referred to as pomodoros. After about four pomodoros, you take a longer break of about 15 to 20 minutes.
 
-Useful for **time managing.**
 
 
 ## Files
 
- - [index.html](https://github.com/umeshmore45/Timer-Application/blob/master/index.html)
- - [index.css](https://github.com/umeshmore45/Timer-Application/blob/umeshmore45-img/style/index.css)
- - [02- stop.js](https://github.com/umeshmore45/Timer-Application/blob/master/src/02-stop.js)
- - [playSound](https://github.com/umeshmore45/Timer-Application/blob/master/src/playSound.js)
+ - [index.html](https://github.com/umeshmore45/Pomodoro-Application/blob/master/index.html)
+ - [index.css](https://github.com/umeshmore45/Pomodoro-Application/blob/master/style/index.css)
+ - [index.js](https://github.com/umeshmore45/Pomodoro-Application/blob/master/src/index.js)
+ - [Short.js](https://github.com/umeshmore45/Pomodoro-Application/blob/master/src/Short.js)
+ - [long.js](https://github.com/umeshmore45/Pomodoro-Application/blob/master/src/long.js)
+ - [playSound](https://github.com/umeshmore45/Pomodoro-Application/blob/master/src/playaudio.js)
 
 
 
 ## Host
 
-[Demo](https://umeshmore45.github.io/Timer-Application/index.html)
+[Demo]( https://umeshmore45.github.io/Pomodoro-Application/index.html)
 
 ## Contact Me
 [Twitter](https://twitter.com/Iamdvirus45)
