@@ -3,7 +3,7 @@ let minutesLg = 14;
 
 //here we areassigning a default values
 let intervalLong = null;
-let statusLong = "stopSh";
+let statusLong = "stopLg";
 
 //--------------
 let secondsStringLg = 0;
@@ -35,6 +35,9 @@ const stopWatchLong = () => {
   document.getElementById(
     "watch-display-Long"
   ).innerHTML = `${minutesStringLg}:${secondsStringLg}`;
+  if (minutesStringSh === "00" && secondsStringSh === "00") {
+    playSound();
+  }
 };
 
 const startStopLong = () => {
@@ -42,10 +45,12 @@ const startStopLong = () => {
     intervalLong = window.setInterval(stopWatchLong, 1000);
     document.getElementById("startstop-Long").innerHTML = "Stop";
     statusLong = "startLg";
+    playSound();
   } else {
     window.clearInterval(intervalLong);
     document.getElementById("startstop-Long").innerHTML = "Start";
     statusLong = "stopLg";
+    playSound();
   }
 };
 
@@ -57,4 +62,5 @@ const restLong = () => {
   document.getElementById("startstop-Long").innerHTML = "Start";
   document.getElementById("watch-display-Long").innerHTML = `15:00`;
   statusLong = "stopLg";
+  playSound();
 };

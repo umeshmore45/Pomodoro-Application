@@ -35,6 +35,9 @@ const stopWatchShort = () => {
   document.getElementById(
     "watch-display-Short"
   ).innerHTML = `${minutesStringSh}:${secondsStringSh}`;
+  if (minutesStringSh === "00" && secondsStringSh === "00") {
+    playSound();
+  }
 };
 
 const startStopShort = () => {
@@ -42,19 +45,22 @@ const startStopShort = () => {
     intervalShort = window.setInterval(stopWatchShort, 1000);
     document.getElementById("startstop-Short").innerHTML = "Stop";
     statusShort = "startSh";
+    playSound();
   } else {
     window.clearInterval(intervalShort);
     document.getElementById("startstop-Short").innerHTML = "Start";
     statusShort = "stopSh";
+    playSound();
   }
 };
 
 const restShort = () => {
   window.clearInterval(intervalShort);
   secondsSh = 60;
-  minutesSh = 24;
+  minutesSh = 4;
 
   document.getElementById("startstop-Short").innerHTML = "Start";
-  document.getElementById("watch-display-Short").innerHTML = `5:00`;
+  document.getElementById("watch-display-Short").innerHTML = `05:00`;
   statusShort = "stopSh";
+  playSound();
 };
