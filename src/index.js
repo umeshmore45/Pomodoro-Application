@@ -41,7 +41,7 @@ const stopWatch = () => {
 
 const startStop = () => {
   if (status == "stop") {
-    interval = window.setInterval(stopWatch, 1);
+    interval = window.setInterval(stopWatch, 1000);
     document.getElementById("startstop").innerHTML = "Stop";
     status = "start";
     playSound();

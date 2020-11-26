@@ -42,7 +42,7 @@ const stopWatchLong = () => {
 
 const startStopLong = () => {
   if (statusLong == "stopLg") {
-    intervalLong = window.setInterval(stopWatchLong, 1);
+    intervalLong = window.setInterval(stopWatchLong, 1000);
     document.getElementById("startstop-Long").innerHTML = "Stop";
     statusLong = "startLg";
     playSound();
