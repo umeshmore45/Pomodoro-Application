@@ -223,6 +223,9 @@ footer {
   margin-top: 3%;
 }
 
+.ham-contaner {
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   .header-container {
     flex-flow: column;
@@ -305,7 +308,7 @@ footer {
     border-bottom: 2px solid black;
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.2vh;
   }
 
   .navbar ul li a:hover,
