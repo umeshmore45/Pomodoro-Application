@@ -1,14 +1,6 @@
-var navbar = document.querySelector(".navbar");
-var ham = document.querySelector(".ham");
+const hamburger = document.getElementById("hamburger");
+const navUL = document.getElementById("nav-ul");
 
-function toggleHamburger() {
-  navbar.classList.toggle("showNav");
-  ham.classList.toggle("showClose");
-}
-
-ham.addEventListener("click", toggleHamburger);
-
-var menuLinks = document.querySelectorAll(".menuLink");
-menuLinks.forEach(function (menuLink) {
-  menuLink.addEventListener("click", toggleHamburger);
+hamburger.addEventListener("click", () => {
+  navUL.classList.toggle("show");
 });
